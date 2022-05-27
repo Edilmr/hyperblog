@@ -1022,3 +1022,1453 @@ index 96e0507..e4e1116 100644
 
 edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
 $
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ pwd
+/c/Users/edilson.murillor
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ d:
+bash: d:: command not found
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ cd d
+bash: cd: d: No such file or directory
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ cd d:
+
+edilson.murillor@LMEEMURILLO MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/                      'System Volume Information'/
+ FortiClientVPNOnlineInstaller.exe*   edilson.murillor/
+'Office 2013'/                        python-3.10.4-amd64.exe*
+ OneDriveTemp/
+
+edilson.murillor@LMEEMURILLO MINGW64 /d
+$ cd edilson.murillor/
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor
+$ ls
+ Desktop/     Downloads/   Music/                   Pictures/
+ Documents/   Favorites/  'OneDrive - CADENA SA'/   Videos/
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor
+$ ls -al
+total 16
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 12 11:39  ./
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 23 12:32  ../
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 23 10:48  Desktop/
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 23 14:53  Documents/
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 26 16:36  Downloads/
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 12 10:27  Favorites/
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 12 10:27  Music/
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 26 11:47 'OneDrive - CADENA SA'/
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 12 10:44  Pictures/
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 25 11:50  Videos/
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor
+$
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor
+$ ls
+ Desktop/     Downloads/   Music/                   Pictures/
+ Documents/   Favorites/  'OneDrive - CADENA SA'/   Videos/
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor
+$ cd Documents/
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor/Documents
+$ ls
+ Cadena/  'Visual Studio 2022'/   cmder/   desktop.ini   pseint/
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor/Documents
+$ cd Cadena/
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor/Documents/Cadena
+$ ls
+Python/  pseint/
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor/Documents/Cadena
+$ cd Python/
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor/Documents/Cadena/Python
+$ ls
+basico/  git/  pseint_python/
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor/Documents/Cadena/Python
+$ cd git/
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor/Documents/Cadena/Python/git
+$
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor/Documents/Cadena/Python/git
+$ ls
+'Nuevo documento de texto.txt'
+
+edilson.murillor@LMEEMURILLO MINGW64 /d/edilson.murillor/Documents/Cadena/Python/git
+$ cd
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ mkdir proyecto1
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+'Entorno de red'@
+ Impresoras@
+ IntelGraphicsProfiles/
+ Links/
+'Menú Inicio'@
+'Mis documentos'@
+ NTUSER.DAT
+ NTUSER.DAT{27cdeaec-aeea-11ec-8018-dc4a3e4f6f42}.TM.blf
+ NTUSER.DAT{27cdeaec-aeea-11ec-8018-dc4a3e4f6f42}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{27cdeaec-aeea-11ec-8018-dc4a3e4f6f42}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Plantillas@
+ Postman/
+ Reciente@
+'Saved Games'/
+ Searches/
+ SendTo@
+ eclipse/
+ eclipse-workspace/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ proyecto1/
+ pseint/
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ cd proyecto1/
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$ touch vacio.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$ ls
+vacio.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$ ls -all
+total 8
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 26 16:49 ./
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 26 16:48 ../
+-rw-r--r-- 1 edilson.murillor 1049089 0 May 26 16:49 vacio.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$ cat vacio.txt
+mensaje secreto
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$ hystory
+bash: hystory: command not found
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$ history
+    1  ls
+    2  cd
+    3  pwd
+    4  pwd
+    5  d:
+    6  cd d
+    7  cd d:
+    8  ls
+    9  cd edilson.murillor/
+   10  ls
+   11  ls -al
+   12  ls
+   13  cd Documents/
+   14  ls
+   15  cd Cadena/
+   16  ls
+   17  cd Python/
+   18  ls
+   19  cd git/
+   20  ls
+   21  cd
+   22  mkdir proyecto1
+   23  ls
+   24  cd proyecto1/
+   25  touch vacio.txt
+   26  ls
+   27  ls -all
+   28  cat vacio.txt
+   29  hystory
+   30  history
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$ !28
+cat vacio.txt
+mensaje secreto
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$ history
+    1  ls
+    2  cd
+    3  pwd
+    4  pwd
+    5  d:
+    6  cd d
+    7  cd d:
+    8  ls
+    9  cd edilson.murillor/
+   10  ls
+   11  ls -al
+   12  ls
+   13  cd Documents/
+   14  ls
+   15  cd Cadena/
+   16  ls
+   17  cd Python/
+   18  ls
+   19  cd git/
+   20  ls
+   21  cd
+   22  mkdir proyecto1
+   23  ls
+   24  cd proyecto1/
+   25  touch vacio.txt
+   26  ls
+   27  ls -all
+   28  cat vacio.txt
+   29  hystory
+   30  history
+   31  cat vacio.txt
+   32  history
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$ rm vacio.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$ ls
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$ rm --help
+Usage: rm [OPTION]... [FILE]...
+Remove (unlink) the FILE(s).
+
+  -f, --force           ignore nonexistent files and arguments, never prompt
+  -i                    prompt before every removal
+  -I                    prompt once before removing more than three files, or
+                          when removing recursively; less intrusive than -i,
+                          while still giving protection against most mistakes
+      --interactive[=WHEN]  prompt according to WHEN: never, once (-I), or
+                          always (-i); without WHEN, prompt always
+      --one-file-system  when removing a hierarchy recursively, skip any
+                          directory that is on a file system different from
+                          that of the corresponding command line argument
+      --no-preserve-root  do not treat '/' specially
+      --preserve-root[=all]  do not remove '/' (default);
+                              with 'all', reject any command line argument
+                              on a separate device from its parent
+  -r, -R, --recursive   remove directories and their contents recursively
+  -d, --dir             remove empty directories
+  -v, --verbose         explain what is being done
+      --help     display this help and exit
+      --version  output version information and exit
+
+By default, rm does not remove directories.  Use the --recursive (-r or -R)
+option to remove each listed directory, too, along with all of its contents.
+
+To remove a file whose name starts with a '-', for example '-foo',
+use one of these commands:
+  rm -- -foo
+
+  rm ./-foo
+
+Note that if you use rm to remove a file, it might be possible to recover
+some of its contents, given sufficient expertise and/or time.  For greater
+assurance that the contents are truly unrecoverable, consider using shred.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/rm>
+or available locally via: info '(coreutils) rm invocation'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$ pwd
+/c/Users/edilson.murillor/proyecto1
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1
+$ git init
+Initialized empty Git repository in C:/Users/edilson.murillor/proyecto1/.git/
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ ls -al
+total 12
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 26 16:55 ./
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 26 16:48 ../
+drwxr-xr-x 1 edilson.murillor 1049089 0 May 26 16:55 .git/
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        historia.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   historia.txt
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git rm historia.txt
+error: the following file has changes staged in the index:
+    historia.txt
+(use --cached to keep the file, or -f to force removal)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git rm --cached historia.txt
+rm 'historia.txt'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ status
+bash: status: command not found
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        historia.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   historia.txt
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit -m "Este es el primer commit de este archivo"
+[master (root-commit) 2505520] Este es el primer commit de este archivo
+ Committer: Edilson Murillo Rodriguez <edilson.murillor@cadena.com.co>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+)
+ create mode 100644 historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/edilson.murillor/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git config --list --show-origin
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig diff.astextplain.textconv=astextplain
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig filter.lfs.process=git-lfs filter-process
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig filter.lfs.required=true
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig http.sslbackend=openssl
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig http.sslcainfo=C:/Users/edilson.murillor/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig core.autocrlf=true
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig core.fscache=true
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig core.symlinks=false
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig pull.rebase=false
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig credential.helper=manager-core
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig credential.https://dev.azure.com.usehttppath=true
+file:C:/Users/edilson.murillor/AppData/Local/Programs/Git/etc/gitconfig init.defaultbranch=master
+file:.git/config        core.repositoryformatversion=0
+file:.git/config        core.filemode=false
+file:.git/config        core.bare=false
+file:.git/config        core.logallrefupdates=true
+file:.git/config        core.symlinks=false
+file:.git/config        core.ignorecase=true
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git config --global
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git config --global user.name "Edilson"
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git config --global user.email "edilmr18@gmail.com"
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/edilson.murillor/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Edilson
+user.email=edilmr18@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit -m "Este es el primer commit de este archivo"
+On branch master
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ ls -al
+total 13
+drwxr-xr-x 1 edilson.murillor 1049089   0 May 26 16:59 ./
+drwxr-xr-x 1 edilson.murillor 1049089   0 May 27 07:48 ../
+drwxr-xr-x 1 edilson.murillor 1049089   0 May 27 07:51 .git/
+-rw-r--r-- 1 edilson.murillor 1049089 136 May 26 17:00 historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ history
+    1  ls
+    2  cd
+    3  pwd
+    4  pwd
+    5  d:
+    6  cd d
+    7  cd d:
+    8  ls
+    9  cd edilson.murillor/
+   10  ls
+   11  ls -al
+   12  ls
+   13  cd Documents/
+   14  ls
+   15  cd Cadena/
+   16  ls
+   17  cd Python/
+   18  ls
+   19  cd git/
+   20  ls
+   21  cd
+   22  mkdir proyecto1
+   23  ls
+   24  cd proyecto1/
+   25  touch vacio.txt
+   26  ls
+   27  ls -all
+   28  cat vacio.txt
+   29  hystory
+   30  history
+   31  cat vacio.txt
+   32  history
+   33  rm vacio.txt
+   34  ls
+   35  rm --help
+   36  pwd
+   37  git init
+   38  ls -al
+   39  git status
+   40  git add historia.txt
+   41  git status
+   42  git rm historia.txt
+   43  git rm --cached historia.txt
+   44  status
+   45  git status
+   46  git add historia.txt
+   47  git status
+   48  git commit -m "Este es el primer commit de este archivo"
+   49  git config
+   50  git config --list
+   51  git config --list --show-origin
+   52  git config --global
+   53  git config --global user.name "Edilson"
+   54  git config --global user.email "edilmr18@gmail.com"
+   55  git config --list
+   56  git status
+   57  git commit -m "Este es el primer commit de este archivo"
+   58  git add historia.txt
+   59  git status
+   60  git add historia.txt
+   61  git status
+   62  git add historia.txt
+   63  git status
+   64  ls -al
+   65  history
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/edilson.murillor/proyecto1/.git/
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ !43
+git rm --cached historia.txt
+rm 'historia.txt'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    historia.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        historia.txt
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git rm --cached historia.txt
+rm 'historia.txt'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    historia.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        historia.txt
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit -m "Este es el primer commit de este archivo"
+[master c1457c9] Este es el primer commit de este archivo
+ 1 file changed, 5 deletions(-)
+ delete mode 100644 historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ cat historia.txt
+Esta es la historia de edilson murillo
+
+Edilson tiene 26 años y nacion en caicedo antioquia colombia
+
+hoy hablaremos de su historia
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ code historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        historia.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit -m "Cabios al archivo de historia"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        historia.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add .
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit -m "Cabios al archivo de historia"
+[master 4e9fa01] Cabios al archivo de historia
+ 1 file changed, 6 insertions(+)
+ create mode 100644 historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log historia.txt
+commit 4e9fa01217c19844d8e360a3a9fe002823dbe5dc (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:02:03 2022 -0500
+
+    Cabios al archivo de historia
+
+commit c1457c9cdf4f2b040015dbccfaef54f183ce7002
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 07:55:51 2022 -0500
+
+    Este es el primer commit de este archivo
+
+commit 250552011b6bbaa598cd3ade837d0f17710d8749
+Author: Edilson Murillo Rodriguez <edilson.murillor@cadena.com.co>
+Date:   Thu May 26 17:04:18 2022 -0500
+
+    Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git show historia.txt
+commit 4e9fa01217c19844d8e360a3a9fe002823dbe5dc (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:02:03 2022 -0500
+
+    Cabios al archivo de historia
+
+diff --git a/historia.txt b/historia.txt
+new file mode 100644
+index 0000000..ac7e4ec
+--- /dev/null
++++ b/historia.txt
+@@ -0,0 +1,6 @@
++Esta es la historia de edilson murillo
++
++Edilson tiene 26 años y nacion en caicedo antioquia colombia,
++viviendoen todo el mundo
++
++hoy hablaremos de su historia
+\ No newline at end of file
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ pwd
+/c/Users/edilson.murillor/proyecto1
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ ls
+historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ code historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add .
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit
+[master 5daeac1] Agregamos un cambio de edad y asu estatura
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit
+On branch master
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ code historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add .
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit
+[master de587df] Agregamos el cargo de la persona
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git show
+commit de587df3a334de794d11bc6c3aa50583f9623abf (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:15:49 2022 -0500
+
+    Agregamos el cargo de la persona
+
+    La persona es edilson
+
+diff --git a/historia.txt b/historia.txt
+index 96e0507..e4e1116 100644
+--- a/historia.txt
++++ b/historia.txt
+@@ -5,4 +5,6 @@ viviendoen todo el mundo
+
+ hoy hablaremos de su historia
+
+-En camara parece alto, pero la verdad no es tan alto
+\ No newline at end of file
++En camara parece alto, pero la verdad no es tan alto
++
++Hoy  sigue siendo vocero de la ficha 2358354
+\ No newline at end of file
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log historia.txt
+commit de587df3a334de794d11bc6c3aa50583f9623abf (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:15:49 2022 -0500
+
+    Agregamos el cargo de la persona
+
+    La persona es edilson
+
+commit 5daeac1869a735c2b7958453c8d3712fa68e1c9f
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:12:39 2022 -0500
+
+    Agregamos un cambio de edad y asu estatura
+
+commit 4e9fa01217c19844d8e360a3a9fe002823dbe5dc
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:02:03 2022 -0500
+
+    Cabios al archivo de historia
+
+commit c1457c9cdf4f2b040015dbccfaef54f183ce7002
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 07:55:51 2022 -0500
+
+    Este es el primer commit de este archivo
+
+commit 250552011b6bbaa598cd3ade837d0f17710d8749
+Author: Edilson Murillo Rodriguez <edilson.murillor@cadena.com.co>
+Date:   Thu May 26 17:04:18 2022 -0500
+
+    Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git diff 5daeac1869a735c2b7958453c8d3712fa68e1c9f
+diff --git a/historia.txt b/historia.txt
+index 96e0507..e4e1116 100644
+--- a/historia.txt
++++ b/historia.txt
+@@ -5,4 +5,6 @@ viviendoen todo el mundo
+
+ hoy hablaremos de su historia
+
+-En camara parece alto, pero la verdad no es tan alto
+\ No newline at end of file
++En camara parece alto, pero la verdad no es tan alto
++
++Hoy  sigue siendo vocero de la ficha 2358354
+\ No newline at end of file
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git diff 5daeac1869a735c2b7958453c8d3712fa68e1c9f 250552011b6bbaa598cd3ade837d0f17710d8749
+diff --git a/historia.txt b/historia.txt
+index 96e0507..a541547 100644
+--- a/historia.txt
++++ b/historia.txt
+@@ -1,8 +1,5 @@
+ Esta es la historia de edilson murillo
+
+-Edilson tiene 27 años y nacion en caicedo antioquia colombia,
+-viviendoen todo el mundo
++Edilson tiene 26 años y nacion en caicedo antioquia colombia
+
+-hoy hablaremos de su historia
+-
+-En camara parece alto, pero la verdad no es tan alto
+\ No newline at end of file
++hoy hablaremos de su historia
+\ No newline at end of file
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git diff  250552011b6bbaa598cd3ade837d0f17710d87 5daeac1869a735c2b7958453c8d3712fa68e1c9f
+diff --git a/historia.txt b/historia.txt
+index a541547..96e0507 100644
+--- a/historia.txt
++++ b/historia.txt
+@@ -1,5 +1,8 @@
+ Esta es la historia de edilson murillo
+
+-Edilson tiene 26 años y nacion en caicedo antioquia colombia
++Edilson tiene 27 años y nacion en caicedo antioquia colombia,
++viviendoen todo el mundo
+
+-hoy hablaremos de su historia
+\ No newline at end of file
++hoy hablaremos de su historia
++
++En camara parece alto, pero la verdad no es tan alto
+\ No newline at end of file
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log historia.txt
+commit de587df3a334de794d11bc6c3aa50583f9623abf (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:15:49 2022 -0500
+
+    Agregamos el cargo de la persona
+
+    La persona es edilson
+
+commit 5daeac1869a735c2b7958453c8d3712fa68e1c9f
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:12:39 2022 -0500
+
+    Agregamos un cambio de edad y asu estatura
+
+commit 4e9fa01217c19844d8e360a3a9fe002823dbe5dc
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:02:03 2022 -0500
+
+    Cabios al archivo de historia
+
+commit c1457c9cdf4f2b040015dbccfaef54f183ce7002
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 07:55:51 2022 -0500
+
+    Este es el primer commit de este archivo
+
+commit 250552011b6bbaa598cd3ade837d0f17710d8749
+Author: Edilson Murillo Rodriguez <edilson.murillor@cadena.com.co>
+Date:   Thu May 26 17:04:18 2022 -0500
+
+    Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git diff 5daeac1869a735c2b7958453c8d3712fa68e1c9f
+diff --git a/historia.txt b/historia.txt
+index 96e0507..e4e1116 100644
+--- a/historia.txt
++++ b/historia.txt
+@@ -5,4 +5,6 @@ viviendoen todo el mundo
+
+ hoy hablaremos de su historia
+
+-En camara parece alto, pero la verdad no es tan alto
+\ No newline at end of file
++En camara parece alto, pero la verdad no es tan alto
++
++Hoy  sigue siendo vocero de la ficha 2358354
+\ No newline at end of file
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git diff 5daeac1869a735c2b7958453c8d3712fa68e1c9f de587df3a334de794d11bc6c3aa50583f9623abf
+diff --git a/historia.txt b/historia.txt
+index 96e0507..e4e1116 100644
+--- a/historia.txt
++++ b/historia.txt
+@@ -5,4 +5,6 @@ viviendoen todo el mundo
+
+ hoy hablaremos de su historia
+
+-En camara parece alto, pero la verdad no es tan alto
+\ No newline at end of file
++En camara parece alto, pero la verdad no es tan alto
++
++Hoy  sigue siendo vocero de la ficha 2358354
+\ No newline at end of file
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log
+commit de587df3a334de794d11bc6c3aa50583f9623abf (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:15:49 2022 -0500
+
+    Agregamos el cargo de la persona
+
+    La persona es edilson
+
+commit 5daeac1869a735c2b7958453c8d3712fa68e1c9f
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:12:39 2022 -0500
+
+    Agregamos un cambio de edad y asu estatura
+
+commit 4e9fa01217c19844d8e360a3a9fe002823dbe5dc
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:02:03 2022 -0500
+
+    Cabios al archivo de historia
+
+commit c1457c9cdf4f2b040015dbccfaef54f183ce7002
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 07:55:51 2022 -0500
+
+    Este es el primer commit de este archivo
+
+commit 250552011b6bbaa598cd3ade837d0f17710d8749
+Author: Edilson Murillo Rodriguez <edilson.murillor@cadena.com.co>
+Date:   Thu May 26 17:04:18 2022 -0500
+
+    Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git reset 250552011b6bbaa598cd3ade837d0f17710d8749
+Unstaged changes after reset:
+M       historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git reset 250552011b6bbaa598cd3ade837d0f17710d8749 --hard
+HEAD is now at 2505520 Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ code historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log
+commit 250552011b6bbaa598cd3ade837d0f17710d8749 (HEAD -> master)
+Author: Edilson Murillo Rodriguez <edilson.murillor@cadena.com.co>
+Date:   Thu May 26 17:04:18 2022 -0500
+
+    Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        blogpost.html
+        codigos27-05-22.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ ls
+blogpost.html  codigos27-05-22.txt  historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ ls -al
+total 54
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 27 08:40 ./
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 27 08:38 ../
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 27 08:41 .git/
+-rw-r--r-- 1 edilson.murillor 1049089   356 May 27 08:41 blogpost.html
+-rw-r--r-- 1 edilson.murillor 1049089 32755 May 27 08:25 codigos27-05-22.txt
+-rw-r--r-- 1 edilson.murillor 1049089   136 May 27 08:37 historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        blogpost.html
+        codigos27-05-22.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        blogpost.html
+        codigos27-05-22.txt
+        css/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git diff
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git diff
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        blogpost.html
+        codigos27-05-22.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add .
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   blogpost.html
+        new file:   codigos27-05-22.txt
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   blogpost.html
+        new file:   codigos27-05-22.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        css/
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git diff
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add .
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   blogpost.html
+        new file:   codigos27-05-22.txt
+        new file:   css/estilos.css
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git diff
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit - m "Arranco mi proyecto real co html y css"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'Arranco mi proyecto real co html y css' did not match any file(s) known to git
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit -m "Arranco mi proyecto real co html y css"
+[master cb7764e] Arranco mi proyecto real co html y css
+ 3 files changed, 1043 insertions(+)
+ create mode 100644 blogpost.html
+ create mode 100644 codigos27-05-22.txt
+ create mode 100644 css/estilos.css
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log
+commit cb7764ebdc4a6d28b36085884f1a39e4047a1a63 (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:51:30 2022 -0500
+
+    Arranco mi proyecto real co html y css
+
+commit 250552011b6bbaa598cd3ade837d0f17710d8749
+Author: Edilson Murillo Rodriguez <edilson.murillor@cadena.com.co>
+Date:   Thu May 26 17:04:18 2022 -0500
+
+    Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add .
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit -m "cambio de vida"
+[master abe97b5] cambio de vida
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add .
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit -m "cambio de maestria"
+[master 4d6361e] cambio de maestria
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log
+commit 4d6361e8621c1b3e1d303eb737e5a8b289de7b78 (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:52:55 2022 -0500
+
+    cambio de maestria
+
+commit abe97b5d62e79f26d93d9bc39a72b020881c5065
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:52:29 2022 -0500
+
+    cambio de vida
+
+commit cb7764ebdc4a6d28b36085884f1a39e4047a1a63
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:51:30 2022 -0500
+
+    Arranco mi proyecto real co html y css
+
+commit 250552011b6bbaa598cd3ade837d0f17710d8749
+Author: Edilson Murillo Rodriguez <edilson.murillor@cadena.com.co>
+Date:   Thu May 26 17:04:18 2022 -0500
+
+    Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log --stat
+commit 4d6361e8621c1b3e1d303eb737e5a8b289de7b78 (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:52:55 2022 -0500
+
+    cambio de maestria
+
+ historia.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit abe97b5d62e79f26d93d9bc39a72b020881c5065
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:52:29 2022 -0500
+
+    cambio de vida
+
+ historia.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit cb7764ebdc4a6d28b36085884f1a39e4047a1a63
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:51:30 2022 -0500
+
+    Arranco mi proyecto real co html y css
+
+ blogpost.html       |   14 +
+ codigos27-05-22.txt | 1024 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ css/estilos.css     |    5 +
+ 3 files changed, 1043 insertions(+)
+
+commit 250552011b6bbaa598cd3ade837d0f17710d8749
+Author: Edilson Murillo Rodriguez <edilson.murillor@cadena.com.co>
+Date:   Thu May 26 17:04:18 2022 -0500
+
+    Este es el primer commit de este archivo
+
+ historia.txt | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git checkout
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git checkout 250552011b6bbaa598cd3ade837d0f17710d8749
+Note: switching to '250552011b6bbaa598cd3ade837d0f17710d8749'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 2505520 Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 ((2505520...))
+$ git checkout 250552011b6bbaa598cd3ade837d0f17710d8749 historia.txt
+Updated 0 paths from eab2e2f
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 ((2505520...))
+$ git status
+HEAD detached at 2505520
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 ((2505520...))
+$ git checkout master historia.txt
+Updated 1 path from 825023d
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 ((2505520...))
+$ git checkout master
+Previous HEAD position was 2505520 Este es el primer commit de este archivo
+Switched to branch 'master'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git checkout 250552011b6bbaa598cd3ade837d0f17710d8749 historia.txt
+Updated 1 path from eab2e2f
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git checkout master historia.txt
+Updated 1 path from 825023d
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git checkout 4d6361e8621c1b3e1d303eb737e5a8b289de7b78 historia.txt
+Updated 0 paths from 825023d
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git checkout 250552011b6bbaa598cd3ade837d0f17710d8749 historia.txt
+Updated 1 path from eab2e2f
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add .
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit -m "cambio de maestria"
+[master bb77538] cambio de maestria
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log
+commit bb775387c588f207f99a4118712bec8389b1b113 (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 09:03:11 2022 -0500
+
+    cambio de maestria
+
+commit 4d6361e8621c1b3e1d303eb737e5a8b289de7b78
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:52:55 2022 -0500
+
+    cambio de maestria
+
+commit abe97b5d62e79f26d93d9bc39a72b020881c5065
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:52:29 2022 -0500
+
+    cambio de vida
+
+commit cb7764ebdc4a6d28b36085884f1a39e4047a1a63
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:51:30 2022 -0500
+
+    Arranco mi proyecto real co html y css
+
+commit 250552011b6bbaa598cd3ade837d0f17710d8749
+Author: Edilson Murillo Rodriguez <edilson.murillor@cadena.com.co>
+Date:   Thu May 26 17:04:18 2022 -0500
+
+    Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log --stat
+commit bb775387c588f207f99a4118712bec8389b1b113 (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 09:03:11 2022 -0500
+
+    cambio de maestria
+
+ historia.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4d6361e8621c1b3e1d303eb737e5a8b289de7b78
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:52:55 2022 -0500
+
+    cambio de maestria
+
+ historia.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit abe97b5d62e79f26d93d9bc39a72b020881c5065
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:52:29 2022 -0500
+
+    cambio de vida
+
+ historia.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit cb7764ebdc4a6d28b36085884f1a39e4047a1a63
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:51:30 2022 -0500
+
+    Arranco mi proyecto real co html y css
+
+ blogpost.html       |   14 +
+ codigos27-05-22.txt | 1024 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ css/estilos.css     |    5 +
+ 3 files changed, 1043 insertions(+)
+
+commit 250552011b6bbaa598cd3ade837d0f17710d8749
+Author: Edilson Murillo Rodriguez <edilson.murillor@cadena.com.co>
+Date:   Thu May 26 17:04:18 2022 -0500
+
+    Este es el primer commit de este archivo
+
+ historia.txt | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$
