@@ -3222,4 +3222,271 @@ Author: Edilson <edilmr18@gmail.com>
 edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
 $
 
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ pwd
+/c/Users/edilson.murillor
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ ls -al
+total 6207
+-rw-r--r-- 1 edilson.murillor 1049089    3389 May 31 10:40 ''$'\026'
+-rw-r--r-- 1 edilson.murillor 1049089     744 May 31 10:40 ''$'\026''.pub'
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 31 10:40  ./
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 10:26  ../
+-rw-r--r-- 1 edilson.murillor 1049089    4957 May 31 10:51  .bash_history
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 14:33  .cache/
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 14:33  .eclipse/
+-rw-r--r-- 1 edilson.murillor 1049089      51 May 27 07:48  .gitconfig
+-rw-r--r-- 1 edilson.murillor 1049089      20 May 31 10:36  .lesshst
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 14:33  .p2/
+-rw-r--r-- 1 edilson.murillor 1049089    7435 May 31 09:13  .viminfo
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 15:14  .vscode/
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 10:27 '3D Objects'/
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 10:26  AppData/
+lrwxrwxrwx 1 edilson.murillor 1049089      39 May 12 10:26 'Configuración local' -> /c/Users/edilson.murillor/AppData/Local/
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 10:27  Contacts/
+lrwxrwxrwx 1 edilson.murillor 1049089      69 May 12 10:26  Cookies -> /c/Users/edilson.murillor/AppData/Local/Microsoft/Windows/INetCookies/
+lrwxrwxrwx 1 edilson.murillor 1049089      41 May 12 10:26 'Datos de programa' -> /c/Users/edilson.murillor/AppData/Roaming/
+lrwxrwxrwx 1 edilson.murillor 1049089      77 May 12 10:26 'Entorno de red' -> '/c/Users/edilson.murillor/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+lrwxrwxrwx 1 edilson.murillor 1049089      77 May 12 10:26  Impresoras -> '/c/Users/edilson.murillor/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 31 10:54  IntelGraphicsProfiles/
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 10:27  Links/
+lrwxrwxrwx 1 edilson.murillor 1049089      70 May 12 10:26 'Menú Inicio' -> '/c/Users/edilson.murillor/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 edilson.murillor 1049089      35 May 12 10:26 'Mis documentos' -> /c/Users/edilson.murillor/Documents
+-rw-r--r-- 1 edilson.murillor 1049089 3932160 May 31 10:51  NTUSER.DAT
+-rw-r--r-- 1 edilson.murillor 1049089   65536 May 12 14:10  NTUSER.DAT{27cdeaec-aeea-11ec-8018-dc4a3e4f6f42}.TM.blf
+-rw-r--r-- 1 edilson.murillor 1049089  524288 May 12 10:26  NTUSER.DAT{27cdeaec-aeea-11ec-8018-dc4a3e4f6f42}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 edilson.murillor 1049089  524288 May 12 10:26  NTUSER.DAT{27cdeaec-aeea-11ec-8018-dc4a3e4f6f42}.TMContainer00000000000000000002.regtrans-ms
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 11:39  OneDrive/
+lrwxrwxrwx 1 edilson.murillor 1049089      69 May 12 10:26  Plantillas -> /c/Users/edilson.murillor/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 14:54  Postman/
+lrwxrwxrwx 1 edilson.murillor 1049089      66 May 12 10:26  Reciente -> /c/Users/edilson.murillor/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 10:27 'Saved Games'/
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 10:29  Searches/
+lrwxrwxrwx 1 edilson.murillor 1049089      66 May 12 10:26  SendTo -> /c/Users/edilson.murillor/AppData/Roaming/Microsoft/Windows/SendTo/
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 14:29  eclipse/
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 12 14:32  eclipse-workspace/
+-rw-r--r-- 1 edilson.murillor 1049089 1073152 May 12 10:26  ntuser.dat.LOG1
+-rw-r--r-- 1 edilson.murillor 1049089  172032 May 12 10:26  ntuser.dat.LOG2
+-rw-r--r-- 1 edilson.murillor 1049089      20 May 12 10:26  ntuser.ini
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 31 09:42  proyecto1/
+drwxr-xr-x 1 edilson.murillor 1049089       0 May 23 14:53  pseint/
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ cd
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ pwd
+/c/Users/edilson.murillor
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ git config -l
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/edilson.murillor/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Edilson
+user.email=edilmr18@gmail.com
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ ssh-keygen -t rsa -b 4096 -C "edilmr18@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/edilson.murillor/.ssh/id_rsa):
+Created directory '/c/Users/edilson.murillor/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+
+Your identification has been saved in /c/Users/edilson.murillor/.ssh/id_rsa
+Your public key has been saved in /c/Users/edilson.murillor/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:BvbGVTwmo7LE09BLhoecf4fc1Ig9Fz37KW17SLtlYcQ edilmr18@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|     . =   +.o.o |
+|      * = +.O +..|
+|     .oB +.B + Eo|
+|     .=+=.+ o .. |
+|     . +S. .  .oo|
+|      .o     .o+o|
+|             .oo+|
+|              o+.|
+|              ...|
++----[SHA256]-----+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ eval $(ssh-agent -s)
+Agent pid 961
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ ~
+bash: /c/Users/edilson.murillor: Is a directory
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ cd
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ cd /
+
+edilson.murillor@LMEEMURILLO MINGW64 /
+$ cd
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/edilson.murillor/.ssh/id_rsa (edilmr18@gmail.com)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ cd proyecto1
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git remove -v
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git checkout master
+Switched to branch 'master'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git remove -v
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git checkout main
+Switched to branch 'main'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git remote -v
+origin  https://github.com/Edilmr/hyperblog.git (fetch)
+origin  https://github.com/Edilmr/hyperblog.git (push)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git remote set-url origin
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git remote set-url origin
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git remote set-url origin git@github.com:Edilmr/hyperblog.git
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git remote -v
+origin  git@github.com:Edilmr/hyperblog.git (fetch)
+origin  git@github.com:Edilmr/hyperblog.git (push)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git pull
+The authenticity of host 'github.com (140.82.112.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> main
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git pull origin main
+From github.com:Edilmr/hyperblog
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   blogpost.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git diff
+diff --git a/blogpost.html b/blogpost.html
+index 584a9b9..b2f93ff 100644
+--- a/blogpost.html
++++ b/blogpost.html
+@@ -5,7 +5,7 @@
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/estilos.css">
+-    <title>Bienvenido a hyperblog</title>
++    <title>Bienvenido a hyperblog 2.0</title>
+ </head>
+ <body>
+     <div id="container">
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git commit -am "Una version del hyperblog"
+[main 757e705] Una version del hyperblog
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git pull origin main
+From github.com:Edilmr/hyperblog
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 2.58 KiB | 441.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To github.com:Edilmr/hyperblog.git
+   ccd9d57..757e705  main -> main
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$
+
 
