@@ -3489,4 +3489,716 @@ To github.com:Edilmr/hyperblog.git
 edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
 $
 
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ gitlog
+bash: gitlog: command not found
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git log
+commit c1b97901176c5151d5df2700e34fdbb8e5bb61f6 (HEAD -> main, origin/main)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 12:15:41 2022 -0500
+
+    Nuvos codigos en codigos27-05-22
+
+commit 757e705483bf5960fcb9ce9abb40b8a0f9700f75
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 12:09:12 2022 -0500
+
+    Una version del hyperblog
+
+commit 32d3557c2bd64c77e02cf4ffa2330f4a757ea5fd
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 10:27:29 2022 -0500
+
+    Codigos añadidos a codigos27-05-22
+
+commit ccd9d57204ae1cae2019261e8bd7773511eaa1af
+Author: Edilmr <42975883+Edilmr@users.noreply.github.com>
+Date:   Tue May 31 09:41:43 2022 -0500
+
+    Cambie el titulo del blogpost
+
+    Porque puedo
+
+commit 0ccf11562980201da35cf614ae05bb87cc67cb9f
+Merge: 5a39aef 43c5863
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 09:11:28 2022 -0500
+
+    Merge branch 'main' of https://github.com/Edilmr/hyperblog
+
+commit 43c5863f34aa0615e4c1acb2ca36731025de1c23
+Author: Edilmr <42975883+Edilmr@users.noreply.github.com>
+Date:   Tue May 31 08:54:12 2022 -0500
+
+    Initial commit
+
+commit 5a39aef06c850fb3271b001cbe6516b79cb0fdd4 (origin/master, master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:46:49 2022 -0500
+
+    Agregue mas codigo a codigos 27-05-22
+
+commit 0b1fbd2374d6433aad563b9043a33fa05fcc7023
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:42:42 2022 -0500
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git log --all
+commit c1b97901176c5151d5df2700e34fdbb8e5bb61f6 (HEAD -> main, origin/main)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 12:15:41 2022 -0500
+
+    Nuvos codigos en codigos27-05-22
+
+commit 757e705483bf5960fcb9ce9abb40b8a0f9700f75
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 12:09:12 2022 -0500
+
+    Una version del hyperblog
+
+commit 32d3557c2bd64c77e02cf4ffa2330f4a757ea5fd
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 10:27:29 2022 -0500
+
+    Codigos añadidos a codigos27-05-22
+
+commit ccd9d57204ae1cae2019261e8bd7773511eaa1af
+Author: Edilmr <42975883+Edilmr@users.noreply.github.com>
+Date:   Tue May 31 09:41:43 2022 -0500
+
+    Cambie el titulo del blogpost
+
+    Porque puedo
+
+commit 0ccf11562980201da35cf614ae05bb87cc67cb9f
+Merge: 5a39aef 43c5863
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 09:11:28 2022 -0500
+
+    Merge branch 'main' of https://github.com/Edilmr/hyperblog
+
+commit 43c5863f34aa0615e4c1acb2ca36731025de1c23
+Author: Edilmr <42975883+Edilmr@users.noreply.github.com>
+Date:   Tue May 31 08:54:12 2022 -0500
+
+    Initial commit
+
+commit 5a39aef06c850fb3271b001cbe6516b79cb0fdd4 (origin/master, master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:46:49 2022 -0500
+
+    Agregue mas codigo a codigos 27-05-22
+
+commit 0b1fbd2374d6433aad563b9043a33fa05fcc7023
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:42:42 2022 -0500
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git log --all --graph
+* commit c1b97901176c5151d5df2700e34fdbb8e5bb61f6 (HEAD -> main, origin/main)
+| Author: Edilson <edilmr18@gmail.com>
+| Date:   Tue May 31 12:15:41 2022 -0500
+|
+|     Nuvos codigos en codigos27-05-22
+|
+* commit 757e705483bf5960fcb9ce9abb40b8a0f9700f75
+| Author: Edilson <edilmr18@gmail.com>
+| Date:   Tue May 31 12:09:12 2022 -0500
+|
+|     Una version del hyperblog
+|
+* commit 32d3557c2bd64c77e02cf4ffa2330f4a757ea5fd
+| Author: Edilson <edilmr18@gmail.com>
+| Date:   Tue May 31 10:27:29 2022 -0500
+|
+|     Codigos añadidos a codigos27-05-22
+|
+* commit ccd9d57204ae1cae2019261e8bd7773511eaa1af
+| Author: Edilmr <42975883+Edilmr@users.noreply.github.com>
+| Date:   Tue May 31 09:41:43 2022 -0500
+|
+|     Cambie el titulo del blogpost
+|
+|     Porque puedo
+|
+*   commit 0ccf11562980201da35cf614ae05bb87cc67cb9f
+|\  Merge: 5a39aef 43c5863
+| | Author: Edilson <edilmr18@gmail.com>
+| | Date:   Tue May 31 09:11:28 2022 -0500
+| |
+| |     Merge branch 'main' of https://github.com/Edilmr/hyperblog
+| |
+| * commit 43c5863f34aa0615e4c1acb2ca36731025de1c23
+|   Author: Edilmr <42975883+Edilmr@users.noreply.github.com>
+|   Date:   Tue May 31 08:54:12 2022 -0500
+|
+|       Initial commit
+|
+* commit 5a39aef06c850fb3271b001cbe6516b79cb0fdd4 (origin/master, master)
+| Author: Edilson <edilmr18@gmail.com>
+| Date:   Tue May 31 08:46:49 2022 -0500
+|
+|     Agregue mas codigo a codigos 27-05-22
+|
+* commit 0b1fbd2374d6433aad563b9043a33fa05fcc7023
+| Author: Edilson <edilmr18@gmail.com>
+| Date:   Tue May 31 08:42:42 2022 -0500
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git log --all --graph --decorate --oneline
+* c1b9790 (HEAD -> main, origin/main) Nuvos codigos en codigos27-05-22
+* 757e705 Una version del hyperblog
+* 32d3557 Codigos añadidos a codigos27-05-22
+* ccd9d57 Cambie el titulo del blogpost
+*   0ccf115 Merge branch 'main' of https://github.com/Edilmr/hyperblog
+|\
+| * 43c5863 Initial commit
+* 5a39aef (origin/master, master) Agregue mas codigo a codigos 27-05-22
+* 0b1fbd2 Agregue un archivo con los codigos de git
+* d6b6a53 solucione el conflicto de las ramas
+*   6f4176d solucione el conflicto de las ramas
+|\
+| * 7c5e122 (cabecera) Modifique la cabecera y el color del texto
+* | 17ccd17 Modifique la cabecera y el color del texto
+|/
+* 18f4901 Volvi a una tipografia arial
+*   b46890c Merge branch 'cabecera'
+|\
+| * 19f022e Finalizada la cabecera con diseño azul
+| * 8a9f6f3 Estructura inicial de la cabecera
+* | ad10700 Agregado el contenido final del blog
+|/
+* 69229cf commit al master del blogsport mas reciente
+* 4e9a9ad Codigo añadido al archivo de codigos
+* bb77538 cambio de maestria
+* 4d6361e cambio de maestria
+* abe97b5 cambio de vida
+* cb7764e Arranco mi proyecto real co html y css
+* 2505520 Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ alias arbolito="git log --all --graph --decorate --oneline"
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ arbolito
+* c1b9790 (HEAD -> main, origin/main) Nuvos codigos en codigos27-05-22
+* 757e705 Una version del hyperblog
+* 32d3557 Codigos añadidos a codigos27-05-22
+* ccd9d57 Cambie el titulo del blogpost
+*   0ccf115 Merge branch 'main' of https://github.com/Edilmr/hyperblog
+|\
+| * 43c5863 Initial commit
+* 5a39aef (origin/master, master) Agregue mas codigo a codigos 27-05-22
+* 0b1fbd2 Agregue un archivo con los codigos de git
+* d6b6a53 solucione el conflicto de las ramas
+*   6f4176d solucione el conflicto de las ramas
+|\
+| * 7c5e122 (cabecera) Modifique la cabecera y el color del texto
+* | 17ccd17 Modifique la cabecera y el color del texto
+|/
+* 18f4901 Volvi a una tipografia arial
+*   b46890c Merge branch 'cabecera'
+|\
+| * 19f022e Finalizada la cabecera con diseño azul
+| * 8a9f6f3 Estructura inicial de la cabecera
+* | ad10700 Agregado el contenido final del blog
+|/
+* 69229cf commit al master del blogsport mas reciente
+* 4e9a9ad Codigo añadido al archivo de codigos
+* bb77538 cambio de maestria
+* 4d6361e cambio de maestria
+* abe97b5 cambio de vida
+* cb7764e Arranco mi proyecto real co html y css
+* 2505520 Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ ^C
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag -a v0.1 -m "Resultado de las primeras clases"
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag -a v0.1 -m "Resultado de las primeras clases"
+fatal: tag 'v0.1' already exists
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag -a v0.1 -m "Resultado de las primeras clases" bb77538
+fatal: tag 'v0.1' already exists
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag -a v0.11 -m "Resultado de las primeras clases" bb77538
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag
+v0.1
+v0.11
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git show-ref --tags
+6afcb47ff834d415f54fc79c40f0fa5a790d9281 refs/tags/v0.1
+acf7768efac238d9977bf449a8b3d79366ade7ba refs/tags/v0.11
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ history
+    1  ls
+    2  cd
+    3  pwd
+    4  pwd
+    5  d:
+    6  cd d
+    7  cd d:
+    8  ls
+    9  cd edilson.murillor/
+   10  ls
+   11  ls -al
+   12  ls
+   13  cd Documents/
+   14  ls
+   15  cd Cadena/
+   16  ls
+   17  cd Python/
+   18  ls
+   19  cd git/
+   20  ls
+   21  cd
+   22  mkdir proyecto1
+   23  ls
+   24  cd proyecto1/
+   25  touch vacio.txt
+   26  ls
+   27  ls -all
+   28  cat vacio.txt
+   29  hystory
+   30  history
+   31  cat vacio.txt
+   32  history
+   33  rm vacio.txt
+   34  ls
+   35  rm --help
+   36  pwd
+   37  git init
+   38  ls -al
+   39  git status
+   40  git add historia.txt
+   41  git status
+   42  git rm historia.txt
+   43  git rm --cached historia.txt
+   44  status
+   45  git status
+   46  git add historia.txt
+   47  git status
+   48  git commit -m "Este es el primer commit de este archivo"
+   49  git config
+   50  git config --list
+   51  git config --list --show-origin
+   52  git config --global
+   53  git config --global user.name "Edilson"
+   54  git config --global user.email "edilmr18@gmail.com"
+   55  git config --list
+   56  git status
+   57  git commit -m "Este es el primer commit de este archivo"
+   58  git add historia.txt
+   59  git status
+   60  git add historia.txt
+   61  git status
+   62  git add historia.txt
+   63  git status
+   64  ls -al
+   65  history
+   66  git init
+   67  git status
+   68  git add historia.txt
+   69  git status
+   70  git rm --cached historia.txt
+   71  git status
+   72  git add historia.txt
+   73  git status
+   74  git rm --cached historia.txt
+   75  git status
+   76  git commit -m "Este es el primer commit de este archivo"
+   77  cat historia.txt
+   78  code historia.txt
+   79  git status
+   80  git commit -m "Cabios al archivo de historia"
+   81  git add .
+   82  git commit -m "Cabios al archivo de historia"
+   83  git status
+   84  git log historia.txt
+   85  git show historia.txt
+   86  pwd
+   87  ls
+   88  code historia.txt
+   89  git add .
+   90  git commit
+   91  git commit
+   92  code historia.txt
+   93  git add .
+   94  git commit
+   95  git show
+   96  git log historia.txt
+   97  git diff 5daeac1869a735c2b7958453c8d3712fa68e1c9f
+   98  git diff 5daeac1869a735c2b7958453c8d3712fa68e1c9f 250552011b6bbaa598cd3ade837d0f17710d8749
+   99  git diff  250552011b6bbaa598cd3ade837d0f17710d87 5daeac1869a735c2b7958453c8d3712fa68e1c9f
+  100  git log historia.txt
+  101  git diff 5daeac1869a735c2b7958453c8d3712fa68e1c9f
+  102  git diff 5daeac1869a735c2b7958453c8d3712fa68e1c9f de587df3a334de794d11bc6c3aa50583f9623abf
+  103  git log
+  104  git reset 250552011b6bbaa598cd3ade837d0f17710d8749
+  105  git reset 250552011b6bbaa598cd3ade837d0f17710d8749 --hard
+  106  code historia.txt
+  107  git log
+  108  git status
+  109  ls
+  110  ls -al
+  111  git add.
+  112  git status
+  113  git status
+  114  git diff
+  115  git diff
+  116  git status
+  117  git add .
+  118  git status
+  119  git status
+  120  git diff
+  121  git add .
+  122  git status
+  123  git diff
+  124  git commit - m "Arranco mi proyecto real co html y css"
+  125  git commit -m "Arranco mi proyecto real co html y css"
+  126  git log
+  127  git add .
+  128  git commit -m "cambio de vida"
+  129  git add .
+  130  git commit -m "cambio de maestria"
+  131  git log
+  132  git log --stat
+  133  git checkout
+  134  git checkout 250552011b6bbaa598cd3ade837d0f17710d8749
+  135  git checkout 250552011b6bbaa598cd3ade837d0f17710d8749 historia.txt
+  136  git status
+  137  git checkout master historia.txt
+  138  git checkout master
+  139  git checkout 250552011b6bbaa598cd3ade837d0f17710d8749 historia.txt
+  140  git checkout master historia.txt
+  141  git checkout 4d6361e8621c1b3e1d303eb737e5a8b289de7b78 historia.txt
+  142  git checkout 250552011b6bbaa598cd3ade837d0f17710d8749 historia.txt
+  143  git add .
+  144  git commit -m "cambio de maestria"
+  145  git log
+  146  git log --stat
+  147  git status
+  148  git add .
+  149  git commit -m "Codigo añadido al archivo de codigos"
+  150  exit
+  151  git status
+  152  git commit -a
+  153  git log
+  154  git log --stat
+  155  git status
+  156  git show
+  157  git branch cabecera
+  158  git show
+  159  git status
+  160  git checkout cabecera
+  161  git status
+  162  git status
+  163  git add blogpost.html
+  164  git commit
+  165  git status
+  166  git show
+  167  git log
+  168  git checkout master
+  169  git log
+  170  git checkout cabecera
+  171  git log
+  172  git status
+  173  git status
+  174  git commit -am
+  175  git commit -am "Finalizada la cabecera con diseño azul"
+  176  git status
+  177  git checkout master
+  178  git commit -am "Agregado el contenido final del blog"
+  179  git status
+  180  git log
+  181  cd
+  182  cd proyecto1
+  183  git log
+  184  git checkout cabecera
+  185  git checkout master
+  186  git branch
+  187  git merge cabecera
+  188  git log
+  189  git commit -am "Volvi a una tipografia arial"
+  190  git log
+  191  git branch
+  192  git checkout cabecera
+  193  git merge master
+  194  git commit -am "Modifique la cabecera y el color del texto"
+  195  git checkout master
+  196  git commit -am "Modifique la cabecera y el color del texto"
+  197  git checkout cabecera
+  198  git checkout master
+  199  git merge cabecera
+  200  git log
+  201  git status
+  202  git commit -am "solucione el conflicto de las ramas"
+  203  git status
+  204  git commit -am "solucione el conflicto de las ramas"
+  205  git status
+  206  git add .
+  207  git commit "Agregue un archivo con los codigos de git"
+  208  git commit -m "Agregue un archivo con los codigos de git"
+  209  git status
+  210  git log
+  211  git checkout cabecera
+  212  git checkout master
+  213  git status
+  214  git add .
+  215  git commit -m "Agregue mas codigo a codigos 27-05-22"
+  216  git status
+  217  git log
+  218  pwd
+  219  git remote add origin
+  220  git remote add origin https://github.com/Edilmr/hyperblog.git
+  221  git remote
+  222  git remote -v
+  223  ls -al
+  224  git push origin master
+  225  git pull origin master
+  226  git pull origin master --allow-unrelated-histories
+  227  ls  - all
+  228  ls  - al
+  229  ls  -al
+  230  git push origin master
+  231  git branch main
+  232  git branch
+  233  git checkout main
+  234  git merge master
+  235  git status
+  236  git log
+  237  git pull origin main
+  238  git remote -v
+  239  git push origin main
+  240  git pull origin main --allow-unrelated-histories
+  241  ls -al
+  242  git status
+  243  git push origin main
+  244  git config -l
+  245  git pull origin main
+  246  git log
+  247  git add .
+  248  git commit -m "Codigos añadidos a codigos27-05-22"
+  249  git pull main
+  250  git pull origin main
+  251  pwd
+  252  pwd
+  253  cd proyecto1
+  254  cd
+  255  pwd
+  256  git config -l
+  257  ssh-keygen -t rsa -b 4096 -C "edilmr18@gmail.com"
+  258  ls -al
+  259  cd
+  260  cd
+  261  ls
+  262  ls
+  263  pwd
+  264  ls -al
+  265  cd
+  266  pwd
+  267  git config -l
+  268  ssh-keygen -t rsa -b 4096 -C "edilmr18@gmail.com"
+  269  eval $(ssh-agent -s)
+  270  ~
+  271  cd
+  272  cd /
+  273  cd
+  274  ssh-add ~/.ssh/id_rsa
+  275  cd proyecto1
+  276  git remove -v
+  277  git checkout master
+  278  git remove -v
+  279  git checkout main
+  280  git remote -v
+  281  git remote set-url origin
+  282  git remote set-url origin
+  283  git remote set-url origin git@github.com:Edilmr/hyperblog.git
+  284  git remote -v
+  285  git pull
+  286  git pull origin main
+  287  git status
+  288  git diff
+  289  git commit -am "Una version del hyperblog"
+  290  git pull origin main
+  291  git push origin main
+  292  git commit -am "Nuvos codigos en codigos27-05-22"
+  293  git pull origin main
+  294  git push origin main
+  295  gitlog
+  296  git log
+  297  git log --all
+  298  git log --all --graph
+  299  git log --all --graph --decorate --oneline
+  300  alias arbolito="git log --all --graph --decorate --oneline"
+  301  arbolito
+  302  git tag -a v0.1 -m "Resultado de las primeras clases"
+  303  git tag -a v0.1 -m "Resultado de las primeras clases"
+  304  git tag -a v0.1 -m "Resultado de las primeras clases" bb77538
+  305  git tag -a v0.11 -m "Resultado de las primeras clases" bb77538
+  306  git tag
+  307  git show-ref --tags
+  308  history
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git pull origin main
+From github.com:Edilmr/hyperblog
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git push origin --tags
+Enumerating objects: 2, done.
+Counting objects: 100% (2/2), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 313 bytes | 52.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Edilmr/hyperblog.git
+ * [new tag]         v0.1 -> v0.1
+ * [new tag]         v0.11 -> v0.11
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ arbolito
+* c1b9790 (HEAD -> main, tag: v0.1, origin/main) Nuvos codigos en codigos27-05-22
+* 757e705 Una version del hyperblog
+* 32d3557 Codigos añadidos a codigos27-05-22
+* ccd9d57 Cambie el titulo del blogpost
+*   0ccf115 Merge branch 'main' of https://github.com/Edilmr/hyperblog
+|\
+| * 43c5863 Initial commit
+* 5a39aef (origin/master, master) Agregue mas codigo a codigos 27-05-22
+* 0b1fbd2 Agregue un archivo con los codigos de git
+* d6b6a53 solucione el conflicto de las ramas
+*   6f4176d solucione el conflicto de las ramas
+|\
+| * 7c5e122 (cabecera) Modifique la cabecera y el color del texto
+* | 17ccd17 Modifique la cabecera y el color del texto
+|/
+* 18f4901 Volvi a una tipografia arial
+*   b46890c Merge branch 'cabecera'
+|\
+| * 19f022e Finalizada la cabecera con diseño azul
+| * 8a9f6f3 Estructura inicial de la cabecera
+* | ad10700 Agregado el contenido final del blog
+|/
+* 69229cf commit al master del blogsport mas reciente
+* 4e9a9ad Codigo añadido al archivo de codigos
+* bb77538 (tag: v0.11) cambio de maestria
+* 4d6361e cambio de maestria
+* abe97b5 cambio de vida
+* cb7764e Arranco mi proyecto real co html y css
+* 2505520 Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag -a v0.11 -m "Resultado de las primeras clases"
+fatal: tag 'v0.11' already exists
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag -a v0.11 -m "Resultado de las primeras clases"
+fatal: tag 'v0.11' already exists
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag -a dormido "dfregavdacefafsdfearf" 4d6361e
+fatal: too many arguments
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag -a dormido -m "dfregavdacefafsdfearf" 4d6361e
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git pull origin main
+From github.com:Edilmr/hyperblog
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git push origin --tags
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 165 bytes | 55.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Edilmr/hyperblog.git
+ * [new tag]         dormido -> dormido
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag
+dormido
+v0.1
+v0.11
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag -d v0.1
+Deleted tag 'v0.1' (was 6afcb47)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+From github.com:Edilmr/hyperblog
+Already up to date.  main       -> FETCH_HEAD
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git push origin --tags
+Everything up-to-date
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag
+dormido
+v0.11
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git push origin :refs/tags/v0.1
+To github.com:Edilmr/hyperblog.git
+ - [deleted]         v0.1
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag -d dormido
+Deleted tag 'dormido' (was 89cc210)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git pull origin main
+From github.com:Edilmr/hyperblog
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git push origin --tags
+Everything up-to-date
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git push origin :refs/tags/dormido
+To github.com:Edilmr/hyperblog.git
+ - [deleted]         dormido
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git tag
+v0.11
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git branch
+  cabecera
+* main
+  master
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$
+
+
 
