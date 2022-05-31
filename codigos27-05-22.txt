@@ -2472,3 +2472,419 @@ Date:   Thu May 26 17:04:18 2022 -0500
 
 edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
 $
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ cd
+
+edilson.murillor@LMEEMURILLO MINGW64 ~
+$ cd proyecto1
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log
+commit ad10700dd435174ff1fcb011afb99d39743fcff7 (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 12:50:14 2022 -0500
+
+    Agregado el contenido final del blog
+
+commit 69229cfe0a38aa121e0041ae22932dbe4b62d559
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 10:57:34 2022 -0500
+
+    commit al master del blogsport mas reciente
+
+commit 4e9a9add0b0e1d668b1e6da54935f03df28372b3
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 09:44:58 2022 -0500
+
+    Codigo añadido al archivo de codigos
+
+commit bb775387c588f207f99a4118712bec8389b1b113
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 09:03:11 2022 -0500
+
+    cambio de maestria
+
+commit 4d6361e8621c1b3e1d303eb737e5a8b289de7b78
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:52:55 2022 -0500
+
+    cambio de maestria
+
+commit abe97b5d62e79f26d93d9bc39a72b020881c5065
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:52:29 2022 -0500
+
+    cambio de vida
+
+commit cb7764ebdc4a6d28b36085884f1a39e4047a1a63
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:51:30 2022 -0500
+
+    Arranco mi proyecto real co html y css
+
+commit 250552011b6bbaa598cd3ade837d0f17710d8749
+Author: Edilson Murillo Rodriguez <edilson.murillor@cadena.com.co>
+Date:   Thu May 26 17:04:18 2022 -0500
+
+    Este es el primer commit de este archivo
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git checkout cabecera
+Switched to branch 'cabecera'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (cabecera)
+$ git checkout master
+Switched to branch 'master'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git branch
+  cabecera
+* master
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git merge cabecera
+Auto-merging blogpost.html
+Auto-merging css/estilos.css
+Merge made by the 'ort' strategy.
+ blogpost.html   |  6 ++++++
+ css/estilos.css | 15 +++++++++++++++
+ 2 files changed, 21 insertions(+)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log
+commit b46890cda2e2a3960e5d8e4cfde9cfddb8867dc0 (HEAD -> master)
+Merge: ad10700 19f022e
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:12:01 2022 -0500
+
+    Merge branch 'cabecera'
+
+commit ad10700dd435174ff1fcb011afb99d39743fcff7
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 12:50:14 2022 -0500
+
+    Agregado el contenido final del blog
+
+commit 19f022eddc78286284895ab4c5b6ac77d7331cf4 (cabecera)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 12:47:09 2022 -0500
+
+    Finalizada la cabecera con diseño azul
+
+commit 8a9f6f3f0436b0c1ad9d06dd73c86021dbeb071d
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 11:05:26 2022 -0500
+
+    Estructura inicial de la cabecera
+
+commit 69229cfe0a38aa121e0041ae22932dbe4b62d559
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 10:57:34 2022 -0500
+
+    commit al master del blogsport mas reciente
+
+commit 4e9a9add0b0e1d668b1e6da54935f03df28372b3
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 09:44:58 2022 -0500
+
+    Codigo añadido al archivo de codigos
+
+commit bb775387c588f207f99a4118712bec8389b1b113
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 09:03:11 2022 -0500
+
+    cambio de maestria
+
+commit 4d6361e8621c1b3e1d303eb737e5a8b289de7b78
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 08:52:55 2022 -0500
+
+    cambio de maestria
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit -am "Volvi a una tipografia arial"
+[master 18f4901] Volvi a una tipografia arial
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log
+commit 18f49016d68c8222d2715a6fd5030d2791be3440 (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:22:50 2022 -0500
+
+    Volvi a una tipografia arial
+
+commit b46890cda2e2a3960e5d8e4cfde9cfddb8867dc0
+Merge: ad10700 19f022e
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:12:01 2022 -0500
+
+    Merge branch 'cabecera'
+
+commit ad10700dd435174ff1fcb011afb99d39743fcff7
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 12:50:14 2022 -0500
+
+    Agregado el contenido final del blog
+
+commit 19f022eddc78286284895ab4c5b6ac77d7331cf4 (cabecera)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 12:47:09 2022 -0500
+
+    Finalizada la cabecera con diseño azul
+
+commit 8a9f6f3f0436b0c1ad9d06dd73c86021dbeb071d
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 11:05:26 2022 -0500
+
+    Estructura inicial de la cabecera
+
+commit 69229cfe0a38aa121e0041ae22932dbe4b62d559
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 10:57:34 2022 -0500
+
+    commit al master del blogsport mas reciente
+
+commit 4e9a9add0b0e1d668b1e6da54935f03df28372b3
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 09:44:58 2022 -0500
+
+    Codigo añadido al archivo de codigos
+
+commit bb775387c588f207f99a4118712bec8389b1b113
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 09:03:11 2022 -0500
+
+    cambio de maestria
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git branch
+  cabecera
+* master
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git checkout cabecera
+Switched to branch 'cabecera'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (cabecera)
+$ git merge master
+Updating 19f022e..18f4901
+Fast-forward
+ blogpost.html | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (cabecera)
+$ git commit -am "Modifique la cabecera y el color del texto"
+[cabecera 7c5e122] Modifique la cabecera y el color del texto
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (cabecera)
+$ git checkout master
+Switched to branch 'master'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit -am "Modifique la cabecera y el color del texto"
+[master 17ccd17] Modifique la cabecera y el color del texto
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git checkout cabecera
+Switched to branch 'cabecera'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (cabecera)
+$ git checkout master
+Switched to branch 'master'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git merge cabecera
+Auto-merging blogpost.html
+CONFLICT (content): Merge conflict in blogpost.html
+Auto-merging css/estilos.css
+CONFLICT (content): Merge conflict in css/estilos.css
+Automatic merge failed; fix conflicts and then commit the result.
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master|MERGING)
+$ git log
+commit 17ccd17fe2a3f62c2cadde8746e18b86b7f48236 (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:35:04 2022 -0500
+
+    Modifique la cabecera y el color del texto
+
+commit 18f49016d68c8222d2715a6fd5030d2791be3440
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:22:50 2022 -0500
+
+    Volvi a una tipografia arial
+
+commit b46890cda2e2a3960e5d8e4cfde9cfddb8867dc0
+Merge: ad10700 19f022e
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:12:01 2022 -0500
+
+    Merge branch 'cabecera'
+
+commit ad10700dd435174ff1fcb011afb99d39743fcff7
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 12:50:14 2022 -0500
+
+    Agregado el contenido final del blog
+
+commit 19f022eddc78286284895ab4c5b6ac77d7331cf4
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 12:47:09 2022 -0500
+
+    Finalizada la cabecera con diseño azul
+
+commit 8a9f6f3f0436b0c1ad9d06dd73c86021dbeb071d
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 11:05:26 2022 -0500
+
+    Estructura inicial de la cabecera
+
+commit 69229cfe0a38aa121e0041ae22932dbe4b62d559
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 10:57:34 2022 -0500
+
+    commit al master del blogsport mas reciente
+
+commit 4e9a9add0b0e1d668b1e6da54935f03df28372b3
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 09:44:58 2022 -0500
+
+    Codigo añadido al archivo de codigos
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master|MERGING)
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   blogpost.html
+        both modified:   css/estilos.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        codigos31-05-2022.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master|MERGING)
+$ git commit -am "solucione el conflicto de las ramas"
+[master 6f4176d] solucione el conflicto de las ramas
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   blogpost.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        codigos31-05-2022.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit -am "solucione el conflicto de las ramas"
+[master d6b6a53] solucione el conflicto de las ramas
+ 1 file changed, 4 deletions(-)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        codigos31-05-2022.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git add .
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit "Agregue un archivo con los codigos de git"
+error: pathspec 'Agregue un archivo con los codigos de git' did not match any file(s) known to git
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git commit -m "Agregue un archivo con los codigos de git"
+[master 0b1fbd2] Agregue un archivo con los codigos de git
+ 1 file changed, 32 insertions(+)
+ create mode 100644 codigos31-05-2022.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git log
+commit 0b1fbd2374d6433aad563b9043a33fa05fcc7023 (HEAD -> master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:42:42 2022 -0500
+
+    Agregue un archivo con los codigos de git
+
+commit d6b6a538c156dc7e31370eca1900e109bf1e63ae
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:41:35 2022 -0500
+
+    solucione el conflicto de las ramas
+
+commit 6f4176d7378a4dd7f2894949710e86adacca11d4
+Merge: 17ccd17 7c5e122
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:40:14 2022 -0500
+
+    solucione el conflicto de las ramas
+
+commit 17ccd17fe2a3f62c2cadde8746e18b86b7f48236
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:35:04 2022 -0500
+
+    Modifique la cabecera y el color del texto
+
+commit 7c5e12237d553207e7a6a3737ea06273d7fb7da5 (cabecera)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:32:45 2022 -0500
+
+    Modifique la cabecera y el color del texto
+
+commit 18f49016d68c8222d2715a6fd5030d2791be3440
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:22:50 2022 -0500
+
+    Volvi a una tipografia arial
+
+commit b46890cda2e2a3960e5d8e4cfde9cfddb8867dc0
+Merge: ad10700 19f022e
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:12:01 2022 -0500
+
+    Merge branch 'cabecera'
+
+commit ad10700dd435174ff1fcb011afb99d39743fcff7
+Author: Edilson <edilmr18@gmail.com>
+Date:   Fri May 27 12:50:14 2022 -0500
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git checkout cabecera
+Switched to branch 'cabecera'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (cabecera)
+$ git checkout master
+Switched to branch 'master'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$
+
