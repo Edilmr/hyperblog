@@ -2888,3 +2888,338 @@ Switched to branch 'master'
 edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
 $
 
+31/05/2022
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ pwd
+/c/Users/edilson.murillor/proyecto1
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git remote add origin https://github.com/Edilmr/hyperblog.git
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git remote
+origin
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git remote -v
+origin  https://github.com/Edilmr/hyperblog.git (fetch)
+origin  https://github.com/Edilmr/hyperblog.git (push)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ ls -al
+total 121
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 31 08:43 ./
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 31 08:47 ../
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 31 08:58 .git/
+-rw-r--r-- 1 edilson.murillor 1049089  1020 May 31 08:43 blogpost.html
+-rw-r--r-- 1 edilson.murillor 1049089 91548 May 31 08:45 codigos27-05-22.txt
+-rw-r--r-- 1 edilson.murillor 1049089  1941 May 31 08:43 codigos31-05-2022.txt
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 31 08:43 css/
+-rw-r--r-- 1 edilson.murillor 1049089   149 May 27 09:02 historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git push origin master
+Enumerating objects: 68, done.
+Counting objects: 100% (68/68), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (60/60), done.
+Writing objects: 100% (68/68), 15.22 KiB | 2.54 MiB/s, done.
+Total 68 (delta 30), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (30/30), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Edilmr/hyperblog/pull/new/master
+remote:
+To https://github.com/Edilmr/hyperblog.git
+ * [new branch]      master -> master
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git pull origin master
+From https://github.com/Edilmr/hyperblog
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git pull origin master --allow-unrelated-histories
+From https://github.com/Edilmr/hyperblog
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ ls  - all
+ls: cannot access '-': No such file or directory
+ls: cannot access 'all': No such file or directory
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ ls  - al
+ls: cannot access '-': No such file or directory
+ls: cannot access 'al': No such file or directory
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ ls  -al
+total 121
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 31 08:43 ./
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 31 08:47 ../
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 31 09:03 .git/
+-rw-r--r-- 1 edilson.murillor 1049089  1020 May 31 08:43 blogpost.html
+-rw-r--r-- 1 edilson.murillor 1049089 91548 May 31 08:45 codigos27-05-22.txt
+-rw-r--r-- 1 edilson.murillor 1049089  1941 May 31 08:43 codigos31-05-2022.txt
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 31 08:43 css/
+-rw-r--r-- 1 edilson.murillor 1049089   149 May 27 09:02 historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git push origin master
+Everything up-to-date
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git branch main
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git branch
+  cabecera
+  main
+* master
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (master)
+$ git checkout main
+Switched to branch 'main'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git merge master
+Already up to date.
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git log
+commit 5a39aef06c850fb3271b001cbe6516b79cb0fdd4 (HEAD -> main, origin/master, master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:46:49 2022 -0500
+
+    Agregue mas codigo a codigos 27-05-22
+
+commit 0b1fbd2374d6433aad563b9043a33fa05fcc7023
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:42:42 2022 -0500
+
+    Agregue un archivo con los codigos de git
+
+commit d6b6a538c156dc7e31370eca1900e109bf1e63ae
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:41:35 2022 -0500
+
+    solucione el conflicto de las ramas
+
+commit 6f4176d7378a4dd7f2894949710e86adacca11d4
+Merge: 17ccd17 7c5e122
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:40:14 2022 -0500
+
+    solucione el conflicto de las ramas
+
+commit 17ccd17fe2a3f62c2cadde8746e18b86b7f48236
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:35:04 2022 -0500
+
+    Modifique la cabecera y el color del texto
+
+commit 7c5e12237d553207e7a6a3737ea06273d7fb7da5 (cabecera)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:32:45 2022 -0500
+
+    Modifique la cabecera y el color del texto
+
+commit 18f49016d68c8222d2715a6fd5030d2791be3440
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:22:50 2022 -0500
+
+    Volvi a una tipografia arial
+
+commit b46890cda2e2a3960e5d8e4cfde9cfddb8867dc0
+Merge: ad10700 19f022e
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:12:01 2022 -0500
+
+    Merge branch 'cabecera'
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git pull origin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 633 bytes | 1024 bytes/s, done.
+From https://github.com/Edilmr/hyperblog
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+fatal: refusing to merge unrelated histories
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git remote -v
+origin  https://github.com/Edilmr/hyperblog.git (fetch)
+origin  https://github.com/Edilmr/hyperblog.git (push)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git push origin main
+To https://github.com/Edilmr/hyperblog.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Edilmr/hyperblog.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git pull origin main --allow-unrelated-histories
+From https://github.com/Edilmr/hyperblog
+Merge made by the 'ort' strategy.
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ ls -al
+total 122
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 31 09:11 ./
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 31 09:13 ../
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 31 09:13 .git/
+-rw-r--r-- 1 edilson.murillor 1049089    62 May 31 09:11 README.md
+-rw-r--r-- 1 edilson.murillor 1049089  1020 May 31 08:43 blogpost.html
+-rw-r--r-- 1 edilson.murillor 1049089 91548 May 31 08:45 codigos27-05-22.txt
+-rw-r--r-- 1 edilson.murillor 1049089  1941 May 31 08:43 codigos31-05-2022.txt
+drwxr-xr-x 1 edilson.murillor 1049089     0 May 31 08:43 css/
+-rw-r--r-- 1 edilson.murillor 1049089   149 May 27 09:02 historia.txt
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 321 bytes | 321.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Edilmr/hyperblog.git
+   43c5863..0ccf115  main -> main
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git config -l
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/edilson.murillor/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Edilson
+user.email=edilmr18@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/Edilmr/hyperblog.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 711 bytes | 2.00 KiB/s, done.
+From https://github.com/Edilmr/hyperblog
+ * branch            main       -> FETCH_HEAD
+   0ccf115..ccd9d57  main       -> origin/main
+Updating 0ccf115..ccd9d57
+Fast-forward
+ blogpost.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$ git log
+commit ccd9d57204ae1cae2019261e8bd7773511eaa1af (HEAD -> main, origin/main)
+Author: Edilmr <42975883+Edilmr@users.noreply.github.com>
+Date:   Tue May 31 09:41:43 2022 -0500
+
+    Cambie el titulo del blogpost
+
+    Porque puedo
+
+commit 0ccf11562980201da35cf614ae05bb87cc67cb9f
+Merge: 5a39aef 43c5863
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 09:11:28 2022 -0500
+
+    Merge branch 'main' of https://github.com/Edilmr/hyperblog
+
+commit 43c5863f34aa0615e4c1acb2ca36731025de1c23
+Author: Edilmr <42975883+Edilmr@users.noreply.github.com>
+Date:   Tue May 31 08:54:12 2022 -0500
+
+    Initial commit
+
+commit 5a39aef06c850fb3271b001cbe6516b79cb0fdd4 (origin/master, master)
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:46:49 2022 -0500
+
+    Agregue mas codigo a codigos 27-05-22
+
+commit 0b1fbd2374d6433aad563b9043a33fa05fcc7023
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:42:42 2022 -0500
+
+    Agregue un archivo con los codigos de git
+
+commit d6b6a538c156dc7e31370eca1900e109bf1e63ae
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:41:35 2022 -0500
+
+    solucione el conflicto de las ramas
+
+commit 6f4176d7378a4dd7f2894949710e86adacca11d4
+Merge: 17ccd17 7c5e122
+Author: Edilson <edilmr18@gmail.com>
+Date:   Tue May 31 08:40:14 2022 -0500
+
+    solucione el conflicto de las ramas
+
+commit 17ccd17fe2a3f62c2cadde8746e18b86b7f48236
+Author: Edilson <edilmr18@gmail.com>
+
+edilson.murillor@LMEEMURILLO MINGW64 ~/proyecto1 (main)
+$
+
+
