@@ -12,4 +12,7 @@ En este curso vemos todo
 * 5
 * 6 creado por edilson
 
+Incluye ejemplos de linux, windows y mac
+
+
 Y esto es un chiste**de edilson murillo**
