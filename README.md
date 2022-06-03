@@ -14,5 +14,7 @@ En este curso vemos todo
 
 Incluye ejemplos de linux, windows y mac
 
+disponible para todas las edades
+
 
 Y esto es un chiste**de edilson murillo**
